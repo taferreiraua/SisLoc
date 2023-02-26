@@ -34,3 +34,63 @@ class Filme:
 
     def addGenero(self, genero):
         self.genero.append(genero)
+
+    def setData(self, data):
+        self.data = data
+
+    def getData(self):
+        return self.data
+
+    def setDiretor(self, diretores):
+        self.diretores = diretores
+
+    def getDiretores(self):
+        return self.diretores
+
+    def addDiretor(self, diretor):
+        self.diretores.append(diretor)
+
+    def setAtores(self, atores):
+        self.atores = atores
+
+    def getAtores(self):
+        return self.atores
+
+    def addAtor(self, ator):
+        self.atores.append(ator)
+
+    def setSinopse(self, sinopse):
+        self.sinopse = sinopse
+
+    def getSinopse(self):
+        return self.sinopse
+
+    def setProdutores(self, produtores):
+        self.produtores = produtores
+
+    def getProdutores(self):
+        return self.produtores
+
+    def addProdutor(self, produtor):
+        self.diretores.append(produtor)
+
+    def setPreco(self, preco):
+        self.preco = preco
+
+    def getPreco(self):
+        return self.preco
+
+    def setCopias(self, copias):
+        self.copias = copias
+
+    def getCopias(self):
+        return self.copias
+
+    def Imprimir(self):
+        print(f'Código: {self.codigo}\n'
+              f'Título: {self.titulo}\n'
+              f'Gêneros: {self.genero}\n'
+              f'Data de lançamento: {self.data}'
+              f'Atores: {self.atores}\n'
+              f'Diretores: {self.diretores}\n'
+              f'Sinopse: {self.sinopse}')
