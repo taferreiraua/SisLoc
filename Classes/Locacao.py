@@ -1,4 +1,4 @@
-from SisLoc.classes.operacao import Operacao
+from Classes.Operacao import Operacao
 
 
 class Locacao(Operacao):
